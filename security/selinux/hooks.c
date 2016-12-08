@@ -5831,7 +5831,6 @@ static struct security_operations selinux_ops = {
 	.cred_transfer =		selinux_cred_transfer,
 	.kernel_act_as =		selinux_kernel_act_as,
 	.kernel_create_files_as =	selinux_kernel_create_files_as,
-	.kernel_module_request =	selinux_kernel_module_request,
 	.task_setpgid =			selinux_task_setpgid,
 	.task_getpgid =			selinux_task_getpgid,
 	.task_getsid =			selinux_task_getsid,
