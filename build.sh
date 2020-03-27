@@ -1,13 +1,13 @@
 #!/bin/bash
 
 export kernel=Samsung
-export outdir=/home/gleba1337/work/out
+export outdir=/home/calamity/TabletKernel/out
 export makeopts="-j$(nproc)"
 export device_defconfig="gtexswifi-dt_defconfig"
 export zImagePath="build/arch/arm/boot/zImage"
-export KBUILD_BUILD_USER=gleba1337
-export KBUILD_BUILD_HOST=lubuntu
-export CROSS_COMPILE=/home/gleba1337/compiler/arm-eabi-4.8/bin/arm-eabi-
+export KBUILD_BUILD_USER=calamity
+export KBUILD_BUILD_HOST=debian
+export CROSS_COMPILE=/home/calamity/TabletKernel/android-work/bin/arm-eabi-
 export ARCH=arm
 export shouldclean="0"
 export device="gtexswifi"
